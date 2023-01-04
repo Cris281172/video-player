@@ -15,7 +15,7 @@ body{
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    top: 200px;
+    top: 50px;
     width: 712px;
     height: 400px;
 }
@@ -119,17 +119,13 @@ body{
         top: 0;
         width: 100%;
         height: auto;
+        padding: 50px;
+        background-color: red;
     }
 
     .video .my-video{
         width: 100%;
         height: auto;
     }
-    .video.fullscreen{
-        transform: rotate(90deg);
-    }
-    .video .my-video.fullscreen{
-        right: -100%;
-        bottom: -100%;
-    }
+
 }
