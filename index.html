@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <div class="video" id="video">
+        <video id="my-video" class="my-video">
+            <source src="video.mp4" type="video/mp4" />
+        </video>
+        <div class="video-line" id="video-line">
+            <div id="tooltip" class="tooltip"></div>
+            <div id="red-video-line" class="red-video-line"></div>
+        </div>
+
+        <div class="bottom-panel">
+            <div class="left-section">
+                <div class="pause-play-wrapper">
+                    <i class="fa-solid fa-play" id="play-button"></i>
+                    <i class="fa-solid fa-pause" id="pause-button"></i>
+                </div>
+                <div class="change-volume-wrapper">
+                    <i class="fa-solid fa-volume-high" id="volume-icon"></i>
+                    <input class="belt" type="range" id="change-volume" max="1" min="0" step="0.01" />
+
+                </div>
+                <div class="timer">
+                    <span id="video-timer"></span>
+                    <span id="video-length"></span>
+                </div>
+            </div>
+
+            <div class="right-section">
+                <i class="fa-solid fa-expand" id="fullscreen"></i>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
