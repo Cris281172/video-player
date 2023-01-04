@@ -10,6 +10,12 @@ body{
     position: relative;
 }
 
+.title{
+    font-size: 50px;
+    text-align: center;
+    margin: 25px 0 0 0;
+    color: #689797;
+}
 
 .video{
     position: relative;
@@ -19,6 +25,8 @@ body{
     width: 712px;
     height: 400px;
 }
+
+
 
 .video .my-video{
     width: 712px;
