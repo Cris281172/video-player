@@ -66,6 +66,10 @@ body{
     color: #689797;
 }
 
+.title.fullscreen{
+    display: none;
+}
+
 .video{
     position: relative;
     left: 50%;

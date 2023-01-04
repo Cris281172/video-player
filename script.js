@@ -9,6 +9,7 @@ const videoTimer = document.querySelector('#video-timer');
 const videoLength = document.querySelector('#video-length');
 const tooltip = document.querySelector('#tooltip');
 const fullscreen = document.querySelector('#fullscreen');
+const title = document.querySelector('#title');
 myVideo.volume = 0.5;
 const minutesSecondsFormat = (secondsTime) => {
     let minutes = Math.floor(secondsTime / 60);
@@ -72,6 +73,7 @@ const mouseOverLine = () => {
 const toggleFullscreen = () => {
     myVideo.classList.toggle('fullscreen')
     video.classList.toggle('fullscreen')
+    title.classList.toggle('fullscreen')
 }
 
 playButton.addEventListener('click', toggleVideo);
